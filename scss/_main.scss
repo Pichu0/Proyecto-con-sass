@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    .contenedor-index{
+        display: flex;
+        width: 100%;
+    }
+    .foto-principal{
+        grid-area: aside;
+        img{
+            float: right;
+            margin: 10px;
+            max-height: 65vh;
+            border: $colorSecundario 1px double;
+        }
+        img:hover{
+            transform: scale(1.02,1.02);
+        }
+    }
+    .texto-principal p{
+        margin: 30px;
+        min-height: 50vh;
+        font-size: large;
+        font-style: italic;
+        text-align: center;
+        padding-top: 30px;
+        border: 10px ridge $colorSecundario;
+        grid-area: main;
+    }
+}

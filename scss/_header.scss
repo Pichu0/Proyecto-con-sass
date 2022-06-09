@@ -1,0 +1,44 @@
+header{
+    background-color: $colorSecundario;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    grid-area: header;
+    h1 a:hover{
+        color: $colorPrincipal;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        img{
+            height: 50px;
+            margin-left: 50px;
+            width: 70px;
+            height: 80px;
+        }
+        img:hover{
+            transform: scale(1.05,1.05);
+        }
+    }
+    .logo-nombre{
+        margin-left: 40px;
+        letter-spacing: 15px;
+        word-spacing: 0px;
+        font-family: 'Anton', sans-serif;
+    }
+    nav{
+        a{
+            font-weight: 600;
+            padding-right: 10px;
+            margin: 20px;
+        }
+        ul li{
+            display: inline-block;
+        }
+        a:hover{
+            color: $colorPrincipal;
+        }
+    }
+}
